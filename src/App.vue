@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       {{ $store.state.age }}<br />
-      我的年龄嗯test2{{ $store.getters.getAge }}
+      我的年龄嗯test2test{{ $store.getters.getAge }}
       <button @click="add">add</button>
       <button @click="min">min</button>
       {{ $store.state.a.x }}<br />
